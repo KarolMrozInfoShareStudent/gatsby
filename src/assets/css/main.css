@@ -1204,6 +1204,11 @@ ul#nav li.current a {
   -webkit-animation: jquery 2s ease;
 }
 
+.Scrum {
+  width: 90%;
+  -moz-animation: jquery 2s ease;
+  -webkit-animation: jquery 2s ease;
+}
 
 
 @-moz-keyframes CaptureOne {

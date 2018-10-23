@@ -6,7 +6,7 @@ const Banner = () => (
     <div className="banner-text">
       <h1 className="responsive-headline">Witaj nazwyam się  Karol Mróz.</h1>
       <h3>
-        I'm a Manila based <span>graphic designer</span>,
+        C <span>graphic designer</span>,
         <span>illustrator</span> and <span>webdesigner</span> creating awesome
         and effective visual identities for companies of all sizes around the
         globe. Let's

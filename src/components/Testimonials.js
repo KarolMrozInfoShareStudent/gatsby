@@ -5,7 +5,7 @@ const settings = {
   // dots: true,
   infinite: true,
   autoplay: true,
-  speed: 500,
+  speed: 2000,
   slideToShow: 1,
   slideToScroll: 1,
   swipeToSlide: true
@@ -23,63 +23,35 @@ const Testimonials = () => (
               <li>
                 <blockquote>
                   <p>
-                    Your work is going to fill a large part of your life, and
-                    the only way to be truly satisfied is to do what you believe
-                    is great work. And the only way to do great work is to love
-                    what you do. If you haven't found it yet, keep looking.
-                    Don't settle. As with all matters of the heart, you'll know
-                    when you find it.
+                  Programiście nie płaci sie za pisanie kodu tylko za rozwiązanie problemu.
                   </p>
-                  <cite>Steve Jobs</cite>
+                  <cite>Bartosz Cytrynowski</cite>
                 </blockquote>
               </li>
               <li>
                 <blockquote>
                   <p>
-                    This is Photoshop's version of Lorem Ipsum. Proin gravida
-                    nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
-                    quis bibendum auctor, nisi elit consequat ipsum, nec
-                    sagittis sem nibh id elit. Duis sed odio sit amet nibh
-                    vulputate cursus a sit amet mauris.
+                  Wszystkie metody, które definiujemy w definicji klasy, będącej definicją komponentu, które nie są metodami cyklu życia komponentu,
+                  definiujemy za pomocą arrow function, żeby mieć gwarancję, że `this` w ich obrębie zawsze wskazuje na instancję tej klasy (komponent).
                   </p>
-                  <cite>Mr. Adobe</cite>
+                  <cite>Bartosz Cytrynowski</cite>
+                </blockquote>
+              </li>
+              <li>
+                <blockquote>
+                  <p>
+                  Ja: Nie ogarniam JS'a <b>:(</b> <br/>
+                  P: Nie rozumiesz JS'a Karol ? <br/>
+                  Ja: Nie <b>:( </b> <br/>
+                  P: To musisz się go nauczyć :)
+                  </p>
+                  <cite>Paweł Mikołajczuk</cite>
                 </blockquote>
               </li>
             </Slider>
           </ul>
         </div>
-        {/* <div className="ten columns flex-container">
-          <div className="flexslider">
-            <ul className="slides">
-              <li>
-                <blockquote>
-                  <p>
-                    Your work is going to fill a large part of your life, and
-                    the only way to be truly satisfied is to do what you believe
-                    is great work. And the only way to do great work is to love
-                    what you do. If you haven't found it yet, keep looking.
-                    Don't settle. As with all matters of the heart, you'll know
-                    when you find it.
-                  </p>
-                  <cite>Steve Jobs</cite>
-                </blockquote>
-              </li>
-
-              <li>
-                <blockquote>
-                  <p>
-                    This is Photoshop's version of Lorem Ipsum. Proin gravida
-                    nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
-                    quis bibendum auctor, nisi elit consequat ipsum, nec
-                    sagittis sem nibh id elit. Duis sed odio sit amet nibh
-                    vulputate cursus a sit amet mauris.
-                  </p>
-                  <cite>Mr. Adobe</cite>
-                </blockquote>
-              </li>
-            </ul>
-          </div>
-        </div> */}
+       
       </div>
     </div>
   </section>

@@ -8,19 +8,7 @@ const Footer = () => (
       <div className="twelve columns">
         <SocialLinks />
 
-        <ul className="copyright">
-          <li>&copy; Copyright 2018 CeeVee</li>
-          <li>
-            Design by{" "}
-            <a title="Styleshout" href="http://www.styleshout.com/">
-              Styleshout
-            </a>
-          </li>
-          <li>
-            Developed in React ⚛️ by{" "}
-            <a href="http://www.amanhimself.me">Aman Mittal</a>
-          </li>
-        </ul>
+        
       </div>
 
       <div id="go-top">

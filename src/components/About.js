@@ -1,8 +1,8 @@
 import React from "react";
 import { FaCloudDownload } from "react-icons/lib/fa";
 
-import profilePic from "../assets/images/profilepic.jpg";
-
+import profilePic from "../assets/images/AvatarKarolM.png";
+//zdjecie profilowe//
 const About = () => (
   <section id="about">
     <div className="row">
@@ -29,9 +29,8 @@ const About = () => (
             <p className="address">
               <span>Karol Mróz</span>
               <br />
-              <span>
-                1600 Amphitheatre Parkway
-                <br /> Mountain View, CA 94043 US
+              <span> 
+                <br /> Gdańsk Polska
               </span>
               <br />
               <span>+ 48 660-672-165</span>
@@ -42,7 +41,7 @@ const About = () => (
           <div className="columns download">
             <p>
               <a href="#" className="button">
-                <FaCloudDownload /> Download Resume
+                <FaCloudDownload /> Pobierz CV
               </a>
             </p>
           </div>

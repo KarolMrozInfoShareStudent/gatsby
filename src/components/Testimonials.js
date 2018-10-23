@@ -17,7 +17,7 @@ const Testimonials = () => (
       <div className="row">
         <div className="two columns header-col" />
         <div className="ten columns">
-          <h1>Client Testimonials</h1>
+          <h1>Cytaty z życia</h1>
           <ul>
             <Slider {...settings}>
               <li>

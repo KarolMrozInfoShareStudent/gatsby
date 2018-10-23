@@ -4,21 +4,10 @@ import SocialLinks from "./SocialLinks";
 const Banner = () => (
   <div className="row banner">
     <div className="banner-text">
-      <h1 className="responsive-headline">Witaj nazwyam się  Karol Mróz.</h1>
+      <h1 className="responsive-headline">Witaj</h1>
       <h3>
-        C <span>graphic designer</span>,
-        <span>illustrator</span> and <span>webdesigner</span> creating awesome
-        and effective visual identities for companies of all sizes around the
-        globe. Let's
-        <a className="smoothscroll" href="#about">
-          {" "}
-          start scrolling
-        </a>{" "}
-        and learn more
-        <a className="smoothscroll" href="#about">
-          {" "}
-          about me
-        </a>.
+       Nazywam się Karol Mróz, witam na mojej stronie którą zbudowałem za pomocą HTML 5, CSS , Java Script i React JS
+        
       </h3>
       <hr />
       <SocialLinks />

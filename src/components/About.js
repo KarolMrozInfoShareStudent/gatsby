@@ -1,5 +1,5 @@
 import React from "react";
-import { FaCloudDownload } from "react-icons/lib/fa";
+// import { FaCloudDownload } from "react-icons/lib/fa";
 
 import profilePic from "../assets/images/AvatarKarolM.png";
 //zdjecie profilowe//
@@ -12,12 +12,9 @@ const About = () => (
       <div className="nine columns main-col">
         <h2>O mnie</h2>
         <p>
-          quisquam est, qui
-          dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
-          quia non numquam eius modi tempora incidunt ut labore et dolore magnam
-          aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
-          exercitationem ullam corporis suscipit laboriosam.
+        Obecnie uczeń w szkole InfoShare Academy który chce zostać Front end Developerem
         </p>
+        
         <div className="row">
           <div className="columns contact-details">
             <h2>Dane Kontaktowe</h2>
@@ -33,13 +30,13 @@ const About = () => (
               <span>mroz.karol@yahoo.com</span>
             </p>
           </div>
-          <div className="columns download">
+          {/* <div className="columns download">
             <p>
               <a href="#" className="button">
                 <FaCloudDownload /> Pobierz CV
               </a>
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

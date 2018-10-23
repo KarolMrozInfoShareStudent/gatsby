@@ -1168,18 +1168,18 @@ ul#nav li.current a {
   border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  width: 60%;
+.CaptureOne {
+  width: 80%;
   -moz-animation: photoshop 2s ease;
   -webkit-animation: photoshop 2s ease;
 }
-.illustrator {
-  width: 55%;
+.Git {
+  width: 90%;
   -moz-animation: illustrator 2s ease;
   -webkit-animation: illustrator 2s ease;
 }
-.wordpress {
-  width: 50%;
+.JavaScript {
+  width: 30%;
   -moz-animation: wordpress 2s ease;
   -webkit-animation: wordpress 2s ease;
 }
@@ -1193,13 +1193,20 @@ ul#nav li.current a {
   -moz-animation: html5 2s ease;
   -webkit-animation: html5 2s ease;
 }
-.jquery {
+.nodejs {
+  width: 50%;
+  -moz-animation: jquery 2s ease;
+  -webkit-animation: jquery 2s ease;
+}
+.React {
   width: 50%;
   -moz-animation: jquery 2s ease;
   -webkit-animation: jquery 2s ease;
 }
 
-@-moz-keyframes photoshop {
+
+
+@-moz-keyframes CaptureOne {
   0% {
     width: 0px;
   }
@@ -1207,7 +1214,7 @@ ul#nav li.current a {
     width: 60%;
   }
 }
-@-moz-keyframes illustrator {
+@-moz-keyframes Git {
   0% {
     width: 0px;
   }
@@ -1215,7 +1222,7 @@ ul#nav li.current a {
     width: 55%;
   }
 }
-@-moz-keyframes wordpress {
+@-moz-keyframes JavaScript {
   0% {
     width: 0px;
   }
@@ -1239,7 +1246,7 @@ ul#nav li.current a {
     width: 80%;
   }
 }
-@-moz-keyframes jquery {
+@-moz-keyframes nodejs {
   0% {
     width: 0px;
   }

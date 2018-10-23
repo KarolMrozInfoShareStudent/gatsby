@@ -27,7 +27,7 @@ class Navigation extends React.Component {
         </li>
         <li className={isCurrent('#about', pathname)}>
           <a className="smoothscroll" href="#about">
-            About
+            O Mmnie
           </a>
         </li>
         <li className={isCurrent('#resume', pathname)}>
@@ -37,7 +37,7 @@ class Navigation extends React.Component {
         </li>
         <li className={isCurrent('#portfolio', pathname)}>
           <a className="smoothscroll" href="#portfolio">
-            Works
+            Praca
           </a>
         </li>
         <li className={isCurrent('#testimonials', pathname)}>

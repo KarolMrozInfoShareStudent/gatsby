@@ -4,7 +4,7 @@ const Skills = () => (
   <div className="row skill">
     <div className="three columns header-col">
       <h1>
-        <span>Skills</span>
+        <span>Umiejętności</span>
       </h1>
     </div>
 
@@ -21,16 +21,16 @@ const Skills = () => (
       <div className="bars">
         <ul className="skills">
           <li>
-            <span className="bar-expand photoshop" />
-            <em>Photoshop</em>
+            <span className="bar-expand CaptureOne" />
+            <em>Capture One</em>
           </li>
           <li>
-            <span className="bar-expand illustrator" />
-            <em>Illustrator</em>
+            <span className="bar-expand Git" />
+            <em>Git</em>
           </li>
           <li>
-            <span className="bar-expand wordpress" />
-            <em>Wordpress</em>
+            <span className="bar-expand JavaScript" />
+            <em>Java Script</em>
           </li>
           <li>
             <span className="bar-expand css" />
@@ -43,6 +43,10 @@ const Skills = () => (
           <li>
             <span className="bar-expand nodejs" />
             <em>Nodejs</em>
+          </li>
+          <li>
+            <span className="bar-expand React" />
+            <em>React</em>
           </li>
         </ul>
       </div>

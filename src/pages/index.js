@@ -2,6 +2,8 @@ import React from "react";
 import Link from "gatsby-link";
 
 import "../assets/css/main.css";
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
 
 import Header from "../components/Header";
 import About from "../components/About";
@@ -12,7 +14,7 @@ import Footer from "../components/Footer";
 
 const IndexPage = () => (
   <div>
-    <Header />
+    < Header />
     <About />
     {/* <Resume /> */}
     <Testimonials />

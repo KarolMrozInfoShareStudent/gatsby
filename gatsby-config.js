@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "http://KarolMrozInfoShareStudent.github.io/reponame",
   siteMetadata: {
     title: "Gatsby Starter - Ceevee",
     author: "Aman Mittal",
@@ -44,4 +45,6 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`
   ]
+
+ 
 };

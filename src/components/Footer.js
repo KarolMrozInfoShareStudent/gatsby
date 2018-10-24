@@ -7,8 +7,6 @@ const Footer = () => (
     <div className="row">
       <div className="twelve columns">
         <SocialLinks />
-
-        
       </div>
 
       <div id="go-top">

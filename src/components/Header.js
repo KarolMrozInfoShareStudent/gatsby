@@ -2,7 +2,6 @@ import React from "react";
 
 import Navigation from "./Navigation";
 import Banner from "./Banner";
-t 
 import ScrollDown from "./ScrollDown";
 
 

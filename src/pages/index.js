@@ -14,7 +14,7 @@ import Footer from "../components/Footer";
 
 const IndexPage = () => (
   <div>
-    < Header />
+    <Header />
     <About />
     {/* <Resume /> */}
     <Testimonials />

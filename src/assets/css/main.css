@@ -1068,7 +1068,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #resume {
-  background: #fff;
+  background: rgb(255, 255, 255);
   padding-top: 90px;
   padding-bottom: 72px;
   overflow: hidden;
@@ -1161,7 +1161,7 @@ ul#nav li.current a {
 
   margin: 0;
   padding-right: 24px;
-  background: #313131;
+ 
   display: inline-block;
   height: 42px;
   line-height: 42px;
@@ -1172,42 +1172,50 @@ ul#nav li.current a {
   width: 80%;
   -moz-animation: photoshop 2s ease;
   -webkit-animation: photoshop 2s ease;
+  background: hsl(120,100%,20%)
 }
 .Git {
-  width: 90%;
+  width: 85%;
   -moz-animation: illustrator 2s ease;
   -webkit-animation: illustrator 2s ease;
+  background: hsl(120,100%,15%)
 }
 .JavaScript {
   width: 30%;
   -moz-animation: wordpress 2s ease;
   -webkit-animation: wordpress 2s ease;
+  background: hsl(120,100%, 70%)
 }
 .css {
-  width: 90%;
+  width: 91%;
   -moz-animation: css 2s ease;
   -webkit-animation: css 2s ease;
+  background: hsl(120,100%, 9%)
 }
 .html5 {
   width: 80%;
   -moz-animation: html5 2s ease;
   -webkit-animation: html5 2s ease;
+  background: hsl(120,100%,20%);
 }
 .nodejs {
   width: 50%;
   -moz-animation: jquery 2s ease;
   -webkit-animation: jquery 2s ease;
+  background: hsl(120,100%, 50%)
 }
 .React {
   width: 50%;
   -moz-animation: jquery 2s ease;
   -webkit-animation: jquery 2s ease;
+  background:hsl(120,100%, 50%)
 }
 
 .Scrum {
   width: 90%;
   -moz-animation: jquery 2s ease;
   -webkit-animation: jquery 2s ease;
+  background: hsl(120,100%,10%)
 }
 
 

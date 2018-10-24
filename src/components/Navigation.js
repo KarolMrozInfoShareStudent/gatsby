@@ -33,7 +33,7 @@ class Navigation extends React.Component {
         </li>
         <li className={isCurrent('#resume', pathname)}>
           <a className="smoothscroll" href="#resume">
-            Resume
+            Umiejętności
           </a>
         </li>
         {/* <li className={isCurrent('#portfolio', pathname)}>

@@ -27,7 +27,7 @@ const About = () => (
               <br />
               <span>+ 48 660-672-165</span>
               <br />
-              <span>mroz.karol@yahoo.com</span>
+              <span><a href="mailto:mroz.karol@yahoo.com">mroz.karol@yahoo.com</a></span>
             </p>
           </div>
           {/* <div className="columns download">

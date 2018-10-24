@@ -31,11 +31,11 @@ class Navigation extends React.Component {
             O Mnie
           </a>
         </li>
-        {/* <li className={isCurrent('#resume', pathname)}>
+        <li className={isCurrent('#resume', pathname)}>
           <a className="smoothscroll" href="#resume">
             Resume
           </a>
-        </li> */}
+        </li>
         {/* <li className={isCurrent('#portfolio', pathname)}>
           <a className="smoothscroll" href="#portfolio">
             Praca

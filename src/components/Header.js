@@ -9,7 +9,6 @@ const Header = () => (
   <header id="home">
     <Navigation />
     <Banner />
-
     <ScrollDown />
   </header>
 );

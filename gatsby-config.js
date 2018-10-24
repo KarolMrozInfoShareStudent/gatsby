@@ -1,9 +1,9 @@
 module.exports = {
   pathPrefix: "http://KarolMrozInfoShareStudent.github.io/reponame",
   siteMetadata: {
-    title: "Gatsby Starter - Ceevee",
-    author: "Aman Mittal",
-    description: "A Gatsby.js Starter based on Ceevee by Styleshout"
+    title: "Karol Mróz",
+    author: "Karol Mróz",
+    description: "Karol Mórz"
   },
   pathPrefix: "/",
   plugins: [

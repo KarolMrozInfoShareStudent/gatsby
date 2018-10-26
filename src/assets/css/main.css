@@ -1924,7 +1924,7 @@ footer a:visited {
 }
 footer a:hover,
 footer a:focus {
-  color: #fff;
+  color:red;
 }
 
 /* copyright */
@@ -1959,7 +1959,7 @@ footer .social {
 }
 footer .social li {
   display: inline-block;
-  font-size: 30px;
+  font-size: 50px;
   margin: 0;
   padding: 0;
   margin-left: 42px;
@@ -2210,7 +2210,8 @@ footer .social li:first-child {
     font-size: 24px;
     line-height: 36px;
  }
- header .social li { margin: 0 10px; }
+ header .social li { 
+  margin: 0 10px; }
 
   /* scrolldown link */
  header .scrolldown { display: none; }

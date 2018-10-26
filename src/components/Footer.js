@@ -1,6 +1,7 @@
 import React from "react";
 import SocialLinks from "./SocialLinks";
 import { FaChevronCircleUp } from "react-icons/lib/fa";
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Footer = () => (
   <footer id="footer">
@@ -10,9 +11,10 @@ const Footer = () => (
       </div>
 
       <div id="go-top">
-        <a className="smoothscroll" title="Back to Top" href="#home">
-          <FaChevronCircleUp />
-        </a>
+        {/* <a className="smoothscroll" title="Back to Top" href="#home"><FaChevronCircleUp /></a> */}
+
+        <AnchorLink className="smoothscroll" title="Back to Top" href='#home'><FaChevronCircleUp /></AnchorLink>
+       
       </div>
     </div>
   </footer>

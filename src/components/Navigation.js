@@ -1,5 +1,5 @@
 import React from "react";
-
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const isCurrent = (anchor, pathname) => (
   pathname.endsWith(anchor)
@@ -15,6 +15,9 @@ class Navigation extends React.Component {
       this.setState({pathname: window.location.href});
     })
   }
+
+  
+
   render() {
     const { pathname = '' } = this.state
     return (
@@ -22,19 +25,13 @@ class Navigation extends React.Component {
       <a className="mobile-btn" href="#nav-wrap" />
       <ul id="nav" className="nav">
         <li className={isCurrent('#home', pathname)}>
-          <a className="smoothscroll" href="#home">
-            Home
-          </a>
+        <AnchorLink href='#home'>Home</AnchorLink>
         </li>
         <li className={isCurrent('#about', pathname)}>
-          <a className="smoothscroll" href="#about">
-            O Mnie
-          </a>
+        <AnchorLink href='#about'>O Mnie</AnchorLink>
         </li>
         <li className={isCurrent('#resume', pathname)}>
-          <a className="smoothscroll" href="#resume">
-            Umiejętności
-          </a>
+        <AnchorLink href='#resume'>Umiejętności</AnchorLink>
         </li>
         {/* <li className={isCurrent('#portfolio', pathname)}>
           <a className="smoothscroll" href="#portfolio">
@@ -42,14 +39,12 @@ class Navigation extends React.Component {
           </a>
         </li> */}
         <li className={isCurrent('#testimonials', pathname)}>
-          <a className="smoothscroll" href="#testimonials">
-            Z życia
-          </a>
+         
+          <AnchorLink className="smoothscroll" href='#testimonials'>Z życia</AnchorLink>
         </li>
         <li className={isCurrent('#footer', pathname)}>
-          <a className="smoothscroll" href="#footer">
-            Linki
-          </a>
+          
+          <AnchorLink className="smoothscroll" href='#footer'>Linki</AnchorLink>
         </li>
       </ul>
     </nav>

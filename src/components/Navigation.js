@@ -1,11 +1,13 @@
 import React from "react";
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
-const isCurrent = (anchor, pathname) => (
-  pathname.endsWith(anchor)
+const isCurrent = (anchor, pathname) => {
+  return pathname.includes(anchor)
   ? 'current'
   : ''
-)
+}
+
+
 class Navigation extends React.Component {
   state = {
     pathname: '#home'
@@ -16,7 +18,9 @@ class Navigation extends React.Component {
     })
   }
 
-  
+  onClick(event) {
+    this.setState({pathname: event.target.getAttribute('href')})
+  }
 
   render() {
     const { pathname = '' } = this.state
@@ -25,13 +29,13 @@ class Navigation extends React.Component {
       <a className="mobile-btn" href="#nav-wrap" />
       <ul id="nav" className="nav">
         <li className={isCurrent('#home', pathname)}>
-        <AnchorLink href='#home'>Home</AnchorLink>
+        <AnchorLink onClick={(e) => this.onClick(e)} href='#home'>Home</AnchorLink>
         </li>
         <li className={isCurrent('#about', pathname)}>
-        <AnchorLink href='#about'>O Mnie</AnchorLink>
+        <AnchorLink onClick={(e) => this.onClick(e)} href='#about'>O Mnie</AnchorLink>
         </li>
         <li className={isCurrent('#resume', pathname)}>
-        <AnchorLink href='#resume'>Umiejętności</AnchorLink>
+        <AnchorLink onClick={(e) => this.onClick(e)}  href='#resume'>Umiejętności</AnchorLink>
         </li>
         {/* <li className={isCurrent('#portfolio', pathname)}>
           <a className="smoothscroll" href="#portfolio">
@@ -40,11 +44,11 @@ class Navigation extends React.Component {
         </li> */}
         <li className={isCurrent('#testimonials', pathname)}>
          
-          <AnchorLink className="smoothscroll" href='#testimonials'>Z życia</AnchorLink>
+          <AnchorLink onClick={(e) => this.onClick(e)} className="smoothscroll" href='#testimonials'>Z życia</AnchorLink>
         </li>
         <li className={isCurrent('#footer', pathname)}>
         
-          <AnchorLink className="smoothscroll" href='#footer'>Linki</AnchorLink>
+          <AnchorLink onClick={(e) => this.onClick(e)} className="smoothscroll" href='#footer'>Linki</AnchorLink>
         </li>
       </ul>
     </nav>

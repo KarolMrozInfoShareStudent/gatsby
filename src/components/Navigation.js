@@ -43,7 +43,7 @@ class Navigation extends React.Component {
           <AnchorLink className="smoothscroll" href='#testimonials'>Z życia</AnchorLink>
         </li>
         <li className={isCurrent('#footer', pathname)}>
-          
+        
           <AnchorLink className="smoothscroll" href='#footer'>Linki</AnchorLink>
         </li>
       </ul>

@@ -1,11 +1,13 @@
 import React from "react";
 import { FaChevronCircleDown } from "react-icons/lib/fa";
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const ScrollDown = () => (
   <p className="scrolldown">
-    <a className="smoothscroll" href="#about">
-      <FaChevronCircleDown />
-    </a>
+ 
+    
+      <AnchorLink className="smoothscroll" href='#about'>  <FaChevronCircleDown /></AnchorLink>
+    
   </p>
 );
 

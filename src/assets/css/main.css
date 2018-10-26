@@ -1218,6 +1218,13 @@ ul#nav li.current a {
   background: hsl(120,100%,10%)
 }
 
+.jQuery {
+  width: 60%;
+  -moz-animation: jquery 2s ease;
+  -webkit-animation: jquery 2s ease;
+  background: hsl(120,100%,40%)
+}
+
 
 @-moz-keyframes CaptureOne {
   0% {
@@ -1237,7 +1244,7 @@ ul#nav li.current a {
 }
 @-moz-keyframes JavaScript {
   0% {
-    width: 0px;
+    width: 50px;
   }
   100% {
     width: 50%;
@@ -2103,7 +2110,7 @@ footer .social li:first-child {
  /* mobile navigation
  -------------------------------------------------------------------- */
  .nav-collapsed {
-   display: none !important;
+   display: none !important
  }
  .nav-expanded {
    display: block !important;

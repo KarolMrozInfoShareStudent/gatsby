@@ -47,6 +47,10 @@ const Skills = () => (
             <span className="bar-expand Scrum" />
             <em>Scrum</em>
           </li>
+          <li>
+            <span className="bar-expand jQuery" />
+            <em>jQuery</em>
+          </li>
 
         </ul>
       </div>

@@ -2102,6 +2102,12 @@ footer .social li:first-child {
 
  /* mobile navigation
  -------------------------------------------------------------------- */
+ .nav-collapsed {
+   display: none !important;
+ }
+ .nav-expanded {
+   display: block !important;
+ }
  #nav-wrap {
     font: 12px 'opensans-bold', sans-serif;
     background: transparent !important;

@@ -10,7 +10,8 @@ const isCurrent = (anchor, pathname) => {
 
 class Navigation extends React.Component {
   state = {
-    pathname: '#home'
+    pathname: '#home',
+    expanded: false
   }
   componentDidMount() {
     window.addEventListener('hashchange', () => {
@@ -19,15 +20,15 @@ class Navigation extends React.Component {
   }
 
   onClick(event) {
-    this.setState({pathname: event.target.getAttribute('href')})
+    this.setState({expanded: false, pathname: event.target.getAttribute('href')})
   }
 
   render() {
     const { pathname = '' } = this.state
     return (
     <nav id="nav-wrap">
-      <a className="mobile-btn" href="#nav-wrap" />
-      <ul id="nav" className="nav">
+      <a className="mobile-btn" href="#nav-wrap" onClick={() => this.setState({ expanded: true })}/>
+      <ul id="nav" className={`nav ${this.state.expanded ? 'nav-expanded' : 'nav-collapsed'}`}>
         <li className={isCurrent('#home', pathname)}>
         <AnchorLink onClick={(e) => this.onClick(e)} href='#home'>Home</AnchorLink>
         </li>

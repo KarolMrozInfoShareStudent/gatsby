@@ -51,6 +51,10 @@ const Skills = () => (
             <span className="bar-expand jQuery" />
             <em>jQuery</em>
           </li>
+          <li>
+            <span className="bar-expand RWD" />
+            <em>RWD</em>
+          </li>
 
         </ul>
       </div>

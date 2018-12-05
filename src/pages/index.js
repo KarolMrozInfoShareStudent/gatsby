@@ -11,6 +11,7 @@ import Resume from "../components/Resume";
 
 import Testimonials from "../components/Testimonials";
 import Footer from "../components/Footer";
+// import Portfolio from "../components/Portfolio";
 
 const IndexPage = () => (
   <div>

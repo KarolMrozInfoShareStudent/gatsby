@@ -25,7 +25,7 @@ const Testimonials = () => (
                   <p>
                   Programiście nie płaci sie za pisanie kodu tylko za rozwiązanie problemu.
                   </p>
-                  <cite>Bartosz Cytrynowski</cite>
+                  <cite>Bartosz Cytrowski</cite>
                 </blockquote>
               </li>
               <li>
@@ -34,7 +34,7 @@ const Testimonials = () => (
                   Wszystkie metody, które definiujemy w definicji klasy, będącej definicją komponentu, które nie są metodami cyklu życia komponentu,
                   definiujemy za pomocą arrow function, żeby mieć gwarancję, że `this` w ich obrębie zawsze wskazuje na instancję tej klasy (komponent).
                   </p>
-                  <cite>Bartosz Cytrynowski</cite>
+                  <cite>Bartosz Cytrowski</cite>
                 </blockquote>
               </li>
               <li>

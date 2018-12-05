@@ -11,23 +11,23 @@ const About = () => (
       </div>
       <div className="nine columns main-col">
         <h2>O mnie</h2>
-        <p>
-        Obecnie uczeń w szkole InfoShare Academy który chce zostać Front end Developerem
-        </p>
-        
+        <p>Pasjonat fotografii, szukam pracy w zawodzie front-end developer</p>
+
         <div className="row">
           <div className="columns contact-details">
             <h2>Dane Kontaktowe</h2>
             <p className="address">
               <span>Karol Mróz</span>
               <br />
-              <span> 
+              <span>
                 <br /> Gdańsk Polska
               </span>
               <br />
               <span>+ 48 660-672-165</span>
               <br />
-              <span><a href="mailto:mroz.karol@yahoo.com">mroz.karol@yahoo.com</a></span>
+              <span>
+                <a href="mailto:mroz.karol@yahoo.com">mroz.karol@yahoo.com</a>
+              </span>
             </p>
           </div>
           {/* <div className="columns download">

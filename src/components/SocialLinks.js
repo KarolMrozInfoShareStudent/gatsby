@@ -14,7 +14,7 @@ const SocialLinks = () => (
   <ul className="social">
    
     <li>
-      <a href="https://github.com/KarolMrozInfoShareStudent">
+      <a href="https://github.com/MrozKarol">
         <FaGithub />
       </a>
     </li>

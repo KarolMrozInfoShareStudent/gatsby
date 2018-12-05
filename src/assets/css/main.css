@@ -1374,7 +1374,7 @@ ul#nav li.current a {
 
 #about {
   background: #2b2b2b;
-  padding-top: 96px;
+  padding-top: 46px;
   /* padding-bottom: 66px; */
   overflow: hidden;
 }
@@ -1400,8 +1400,8 @@ ul#nav li.current a {
 
 #about .profile-pic {
   position: relative;
-  width: 120px;
-  height: 120px;
+  width: 220px;
+  height: 220px;
   border-radius: 100%;
 }
 
@@ -2702,7 +2702,10 @@ footer .social li:first-child {
   /* About Section
  -------------------------------------------------------------------- */
   #about .profile-pic {
-    display: none;
+    display: block;
+   position: relative;
+   left: 200px;
+   top: 280px;
   }
   #about .download .button {
     width: 100%;
